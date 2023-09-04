@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="age-calculator.js" defer></script>
+    <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+    <main>
+        <form novalidate name="age-calc-form" class="age-calc-form">        
+            <label class="day-label" for="day">Day</label>
+            <input type="tel" name="day" id="day" class="date-input day" minlength="2" maxlength="2" placeholder="DD" required>
+            <p class="day-error-msg"></p>
+            <label class="month-label"  for="month">Month</label>
+            <input type="tel" name="month" id="month" class="date-input month" minlength="2" maxlength="2" placeholder="MM" required>
+            <p class="month-error-msg"></p>
+            <label class="year-label" for="year">Year</label>
+            <input type="tel" name="year" id="year" class="date-input year" minlength="4" maxlength="4" placeholder="YYYY" required>
+            <p class="year-error-msg"></p>
+            <button type="submit" name="submit" id="submit" class="submit"></button>            
+        </form>    
+
+        <hr>              
+        <p class="output"><span class="age-years">--</span> years</p>
+        <p class="output"><span class="age-months">--</span> months</p>
+        <p class="output"><span class="age-days">--</span> days</p>
+    </main>
+    
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/zoedarkweather">Jennifer Souza</a>.
+    </footer>
+</body>
+</html>
