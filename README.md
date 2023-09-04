@@ -40,8 +40,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/zoedarkweather/age-calculator-app](https://github.com/zoedarkweather/age-calculator-app)
+- Live Site URL: [https://age-calculator-app-mauve.vercel.app/](https://age-calculator-app-mauve.vercel.app/)
+
 
 ## My process
 
@@ -68,6 +69,7 @@ I learned that working with dates in JavaScript is more challenging than I'd ant
 - [https://stackoverflow.com/questions/21188420/javascript-date-validation-not-validation-february-31](https://stackoverflow.com/questions/21188420/javascript-date-validation-not-validation-february-31) - This helped me resolve the anything 31 days or less is a valid date issue.
 
 - [https://stackoverflow.com/questions/12254333/javascript-is-creating-date-wrong-month](https://stackoverflow.com/questions/12254333/javascript-is-creating-date-wrong-month) - This helped me learn that months are zero-based and how to get around that.
+
 
 ## Author
 
