@@ -84,14 +84,14 @@ function showError(inputID, errorMsg = "") {
     }
 
     errorPara.textContent = errorMsg;
-    dateInput.setAttribute("class", `date-input ${inputID} input-error`);
+    dateInput.classList.add("input-error");  
 }
 
 function clearError(inputID) {
     const dateInput = document.querySelector(`#${inputID}`);  
     const errorPara = document.querySelector(`#${inputID} + p`);
     errorPara.textContent = "";
-    dateInput.setAttribute("class", `date-input ${inputID}`);
+    dateInput.classList.remove("input-error");
 }
 
 function calculateAge(dateEntered) { 
